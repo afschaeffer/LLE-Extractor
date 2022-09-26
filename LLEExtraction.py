@@ -338,6 +338,7 @@ def run_LLE():
 
     store_files(cwd, page_nums, folder_name)
 
+# Function only gathering and displaying data so user can fix errors without building a new LLE package each time
 def data_only():
      # PDF Pixel coordinate values for drawing title and drawing number, for passing to get_drawing_set_data method
     drawing_number_xmin = 2740
